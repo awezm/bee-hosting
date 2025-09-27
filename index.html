@@ -15,15 +15,23 @@
     </div>
   </header>
 
-  <main id="projects" class="projects">
-    <div class="container">
-      <div class="list-header">
-        <h2>Projects</h2>
-        <input id="search" class="search" type="search" placeholder="Search projects…" aria-label="Search projects" />
-      </div>
-      <div id="project-grid" class="grid"></div>
+<main id="projects" class="projects">
+  <div class="container">
+    <div class="list-header">
+      <h2>Projects</h2>
+      <input id="search" class="search" type="search" placeholder="Search projects…" />
     </div>
-  </main>
+
+    <!-- Category filter bar -->
+    <div id="cat-bar" class="cat-bar" aria-label="Filter by category">
+      <!-- Pills will be injected by JS -->
+    </div>
+
+    <!-- Grouped results -->
+    <div id="groups"></div>
+  </div>
+</main>
+
 
   <section id="features" class="features">
     <div class="container grid">
