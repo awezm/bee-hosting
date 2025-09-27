@@ -28,3 +28,26 @@ footer{text-align:center;padding:2rem 1rem;background:#11131a;opacity:.85}
 .card-actions{display:flex;gap:.5rem;flex-wrap:wrap}
 .btn-link{display:inline-block;padding:.55rem .8rem;border-radius:10px;text-decoration:none;font-weight:700;background:#0f1218;border:1px solid #232733;color:var(--text)}
 .btn-link:hover{border-color:var(--accent)}
+/* Category bar */
+.cat-bar {
+  display: flex; gap: .5rem; flex-wrap: wrap;
+  margin: .5rem 0 1.25rem;
+}
+.cat-pill {
+  padding: .45rem .8rem; border-radius: 999px;
+  border: 1px solid #232733; background: #0f1218; color: var(--text);
+  font-weight: 700; cursor: pointer; user-select: none;
+}
+.cat-pill.active, .cat-pill:hover { border-color: var(--accent); }
+
+/* Group headings */
+.group {
+  margin: 1.25rem 0 2rem;
+}
+.group h3 {
+  font-size: 1.1rem; margin: .25rem 0 1rem; color: var(--accent);
+}
+.group .grid {
+  display: grid; gap: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
