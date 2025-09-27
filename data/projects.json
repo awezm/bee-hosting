@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Your Project",
+    "description": "Describe what it does. Update data/projects.json to add more.",
+    "url": "https://example.com",
+    "repo": "https://github.com/your/repo",
+    "tags": [
+      "example",
+      "static"
+    ]
+  }
+]
