@@ -43,15 +43,18 @@
   --radius-pill: 999px;
   --shadow: 0 8px 24px rgba(0,0,0,.25);
 
-  /* Sections / hero (tweak these to change page rhythm) */
-  --section-pad-y: var(--space-16);
-  --hero-pad-y: 5rem;              /* was 8rem → smaller “forehead” */
-  --hero-pad-y-md: 6rem;           /* larger screens */
-  --hero-pad-y-sm: 3.25rem;        /* small screens */
+  /* Section rhythm (tighter) */
+  --section-pad-y: 2.5rem;          /* was 4rem */
 
-  /* Grid item min width */
+  /* Hero padding (fixes forehead across sizes) */
+  --hero-pad-y-sm: 2rem;
+  --hero-pad-y: 3rem;               /* default / laptop */
+  --hero-pad-y-md: 4rem;            /* large screens */
+
+  /* Card grid */
   --card-min: 260px;
 }
+
 
 /* =========================
    BASE / TYPOGRAPHY
