@@ -47,9 +47,9 @@
   --section-pad-y: 2.5rem;          /* was 4rem */
 
   /* Hero padding (fixes forehead across sizes) */
-  --hero-pad-y-sm: .25rem;
-  --hero-pad-y: .25rem;               /* default / laptop */
-  --hero-pad-y-md: .2rem;            /* large screens */
+  --hero-pad-y-sm: .01rem;
+  --hero-pad-y: .01rem;               /* default / laptop */
+  --hero-pad-y-md: .01rem;            /* large screens */
 
   /* Card grid */
   --card-min: 260px;
