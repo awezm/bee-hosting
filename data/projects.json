@@ -10,3 +10,13 @@
     ]
   }
 ]
+
+[
+  {
+    "name": "BeeBuilder",
+    "description": "Landing page generator with live preview.",
+    "url": "https://builder.awezmtv.cc",
+    "repo": "https://github.com/awezm/beebuilder",
+    "tags": ["tool","landing","ui"]
+  }
+]
