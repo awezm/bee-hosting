@@ -1,22 +1,46 @@
 [
   {
-    "name": "Your Project",
-    "description": "Describe what it does. Update data/projects.json to add more.",
-    "url": "https://example.com",
-    "repo": "https://github.com/your/repo",
-    "tags": [
-      "example",
-      "static"
-    ]
-  }
-]
-
-[
+    "name": "Bee Hosting",
+    "description": "Main hosting brand — production servers and services live.",
+    "url": "https://awezmtv.cc",
+    "repo": "https://github.com/awezm/bee-hosting",
+    "tags": ["Live", "hosting", "production"]
+  },
   {
     "name": "BeeBuilder",
-    "description": "Landing page generator with live preview.",
+    "description": "Landing page generator with live preview and easy export.",
     "url": "https://builder.awezmtv.cc",
     "repo": "https://github.com/awezm/beebuilder",
-    "tags": ["tool","landing","ui"]
+    "tags": ["Live", "tool", "landing", "ui"]
+  },
+
+  {
+    "name": "Licensing API v3",
+    "description": "Node/Express licensing API with HWID/IP binding and entitlements.",
+    "url": "https://api.awezmtv.cc",
+    "repo": "https://github.com/awezm/licensing-v3",
+    "tags": ["In Dev", "api", "auth", "node"]
+  },
+  {
+    "name": "Bee Log Reader",
+    "description": "AI-powered crash log analyzer for games like FiveM, DayZ, Minecraft.",
+    "url": "https://log.awezmtv.cc",
+    "repo": "https://github.com/awezm/bee-log-reader",
+    "tags": ["In Dev", "desktop", "ai", "debugging"]
+  },
+
+  {
+    "name": "SteamCMD Server Finder",
+    "description": "GUI tool for discovering/installing dedicated servers via SteamCMD.",
+    "url": "https://tools.awezmtv.cc/steamcmd-finder",
+    "repo": "https://github.com/awezm/steamcmd-server-finder",
+    "tags": ["Experimenting", "wpf", "steamcmd"]
+  },
+  {
+    "name": "AI Game Support Bot",
+    "description": "Discord bot for AI-powered server troubleshooting & ticketing.",
+    "url": "https://bot.awezmtv.cc",
+    "repo": "https://github.com/awezm/bee-support-bot",
+    "tags": ["Experimenting", "discord", "ai"]
   }
 ]
